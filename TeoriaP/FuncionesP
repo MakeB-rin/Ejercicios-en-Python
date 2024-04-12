@@ -1,0 +1,12 @@
+/*
+Python
+======
+
+Datos de entrada
+
+map lee una cadena con espacios y el int lo vuelve entero
+a,b,c = map(int,input().split())
+
+
+
+*/
