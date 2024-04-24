@@ -1,16 +1,18 @@
-N = int(input())
-pr = 2
-j = 1
-while j <= N:
+def criba(n):
+    N = 100000
+    sieve = [0]*N
+    pr = []
     i = 2
-    flag = True
-    while i*i <= pr:
-        if pr%i == 0:
-            flag = False
-            break
-        i = i + 1
 
-    if flag == True:
-        print(pr, end = " ")
-        j = j + 1
-    pr = pr + 1
+
+    while i*i < N:
+        if sieve[i] == 0:
+            for j in range(i*i, N, 1):
+                sieve[j] = 1
+        i += 1
+
+    for i in range(2, N):
+        if sieve[i] == 0:
+           pr.append(i)
+    return pr
+
