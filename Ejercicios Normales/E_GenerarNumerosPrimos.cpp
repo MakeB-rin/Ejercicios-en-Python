@@ -4,10 +4,9 @@ def criba(n):
     pr = []
     i = 2
 
-
     while i*i < N:
         if sieve[i] == 0:
-            for j in range(i*i, N, 1):
+            for j in range(i*i, N, i):
                 sieve[j] = 1
         i += 1
 
