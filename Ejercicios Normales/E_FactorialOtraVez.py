@@ -1,3 +1,4 @@
+# Ejercicio
 import sys
 n = sys.stdin.readline().strip()
 while(n != 0):
