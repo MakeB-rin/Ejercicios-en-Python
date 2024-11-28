@@ -1,3 +1,4 @@
+# Ejercicio
 def suma(n):
     return (n*(n+1))//2
 
