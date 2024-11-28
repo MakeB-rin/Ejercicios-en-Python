@@ -1,4 +1,4 @@
-# Ejercicios
+# Ejercicio
 def criba(n):
     N = 100000
     sieve = [0]*N
