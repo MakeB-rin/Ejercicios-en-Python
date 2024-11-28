@@ -1,3 +1,4 @@
+# Ejercicios
 def descomponer(n):
     suma = 0
     while(n != 0):
