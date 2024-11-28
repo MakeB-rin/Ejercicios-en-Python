@@ -1,4 +1,5 @@
-# Ejercicio Eliminar las vocales centrales
+# Ejercicio
+# Eliminar las vocales centrales
 # Entrada: tenemos que seguir correteando
 # Salida:  tenmos que segir corretando
 def esVocal(x):
