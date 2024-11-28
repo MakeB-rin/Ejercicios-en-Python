@@ -1,3 +1,4 @@
+# Ejercicio
 nroCasos = int(input())
 for i in range(0,nroCasos):
     n = int(input())
