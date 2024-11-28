@@ -1,3 +1,4 @@
+# Ejercicio
 def ultimo_digito(n):
     if(n <= 4):
         f = 1
