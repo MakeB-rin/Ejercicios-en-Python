@@ -1,3 +1,4 @@
+# Ejercicio
 n = int(input())
 matriz =[[0]*n for i in range(n)]
 dx = [1, -1, 0, 1]
