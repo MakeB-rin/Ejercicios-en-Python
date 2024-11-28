@@ -1,3 +1,4 @@
+# Ejercicio
 n = int(input())
 cnt = 0
 while( n != 0):
