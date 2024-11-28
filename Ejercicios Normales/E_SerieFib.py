@@ -1,3 +1,4 @@
+# Ejercicio
 n = int(input())
 
 a = -1
