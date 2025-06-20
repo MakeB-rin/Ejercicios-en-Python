@@ -8,5 +8,15 @@ map lee una cadena con espacios y el int lo vuelve entero
 a,b,c = map(int,input().split())
 
 
+#Print
+=====
+print("Esta es un linea \nY esta es otra linea")
+print("\tEsta es la tercera linea")
+print('This isn\'t a number ')
+print('Este signo \\ es una barra invertida')
+print("EL nombre de tu cerveza\nes '" + input("Que ciudad te gustaria vivir?: ") + " " + input("Cual es tu color favorito?: ") + "'\nFelicitaciones")
+print("tu nombre completo\nes '" + input("Nombre: ") + " " + input("Apellido: ") + "'\nQue Gusto")
+print("tu nombre completo\nes \"" + input("Nombre: ") + " " + input("Apellido: ") + "\"\nQue Gusto")
+
 
 */
